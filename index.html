@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+        integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Expression Validation App</title>
+</head>
+
+<body>
+
+    <!-- <div class="container">
+        <form action="" class="form" id="myForm">
+            <h4 style="text-align: center; margin-top: 50px; margin-bottom: 30px;">Expression Validation App</h4>
+
+            <input id="email" type="text" class="u-full-width" placeholder="Email"> <br>
+            <input id="password" type="text" class="u-full-width" placeholder="Password"> <br>
+            <input id="phone" type="text" class="u-full-width" placeholder="Phone Number"> <br>
+            <input id="post" type="text" class="u-full-width" placeholder="Postal Code"> <br>
+            <button class="u-full-width" style="background-color: #99d98c;" type="submit">Submit</button>
+
+        </form>
+    </div> -->
+
+    <div class="container">
+        <form action="" class="form" id="myForm">
+            <h4>Please choose an option to validate!</h4>
+            <select class="u-full-width" id="most-like" class="form-control" required>
+                <option disabled selected value>Select an option</option>
+                <option id="email" class="u-full-width" value="email">Email</option>
+                <option id="password" class="u-full-width" value="password">Password</option>
+                <option id="phone" class="u-full-width" value="phoneNumber">Phone Number</option>
+                <option id="post" class="u-full-width" value="postCode">Post code</option>
+                <input id="input" type="text" class="u-full-width" placeholder='Your text here'>
+                <button class="u-full-width" style="background-color: #99d98c;" type="submit">Submit</button>
+
+            </select>
+        </form>
+    </div>
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>
