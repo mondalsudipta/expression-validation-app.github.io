@@ -64,7 +64,7 @@ myForm.addEventListener('submit', (e) => {
 //     let str = email.value ;
 //     if ( emailRegex.test(str)) {
 //         window.alert('Email is Valid') ; 
-//     } else {
+//     } else {f
 //        window.alert ('Invalid Email') ;
 //     }
 // });
